@@ -136,3 +136,58 @@ input {
   color: #fff;
   font-weight: 400;
 }
+
+@media screen and (max-width: 840px) {
+  .form-disclaimer{
+    flex-direction: column-reverse;
+  }
+
+  .vfy-chkbox  {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .verify-label {
+    margin-left: .6rem
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .name-input, .pw-input {
+    flex-direction: column;
+  }
+
+  .name-input input, .pw-input input {
+    width: 100%;
+    margin-bottom: .5rem;
+  }
+
+  .form-disclaimer {
+    flex-direction: column-reverse;
+  }
+
+  .vfy-chkbox {
+    width: 100%;
+    margin-bottom: .4rem;
+  }
+
+  .verify-label {
+    width: 100%;
+    margin-left: .3rem;
+  }
+
+  .verification {
+    width: 100%
+  }
+
+  .register-btns {
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .register-btns button {
+    margin-bottom: .4rem;
+    width: 100%;
+  }
+}
