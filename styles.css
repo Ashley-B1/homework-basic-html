@@ -2,4 +2,61 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.splash-form {
+  border: solid red 2px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.form-header {
+  font-weight: 500;
+  border: solid blue 2px;
+  padding: .4rem;
+}
+
+.my-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: solid green 2px;
+  width: 75vw;
+  padding: .2rem .7rem;
+  height: 50vh;
+}
+
+.name-input {
+  padding: .2rem;
+  width: 100%;
+  border: solid orange 2px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .2rem;
+}
+
+.name-input input {
+  padding: 10px;
+  width: 48%;
+  border-radius: .5rem;
+  border: solid #919191 1.8px;
+}
+
+.contact-input {
+  border: solid pink 2px;
+  padding: .2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input input {
+  padding: 10px;
+  border-radius: .5rem;
+  border: solid #919191 1.8px;
+  margin-bottom: .3rem;
 }

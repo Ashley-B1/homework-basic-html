@@ -1,38 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="heading">Sign Up</div>
-  <form method="get" class="my-form">
-    <div class="name-input">
-      <input class="f-name" type="text" name="f-name" placeholder="First Name" />
-      <input class="l-name" type="text" name="l-name" placeholder="Last Name" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Basic HTML Homework</title>
+  </head>
+  <body>
+    <div class="splash-form">
+      <div class="heading">
+        <h1 class="form-header">Sign Up</h1>
+      </div>
+      <form method="get" class="my-form">
+        <div class="name-input">
+          <input
+            class="f-name"
+            type="text"
+            name="f-name"
+            placeholder="First Name"
+          />
+          <input
+            class="l-name"
+            type="text"
+            name="l-name"
+            placeholder="Last Name"
+          />
+        </div>
+        <div class="contact-input">
+          <input
+            class="phone"
+            type="tel"
+            name="phone"
+            placeholder="Mobile No."
+          />
+          <input
+            class="email"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+          />
+        </div>
+        <div class="pw-input">
+          <input
+            class="password"
+            type="password"
+            name="password"
+            placeholder="Password"
+          />
+          <input
+            class="pw-confirm"
+            type="password"
+            name="pw-confirm"
+            placeholder="Confirm Password"
+          />
+        </div>
+        <div class="form-disclaimer">
+          <input
+            type="checkbox"
+            id="disclain-btn"
+            name="disclaim-vfy"
+            value="I Agree"
+          />
+          <label class="verify-label" for="disclaim-vfy">I Agree</label>
+          <p class="verification">
+            By clicking <span class="vfy-btn">Register</span>, you agree to the
+            <a class="tc-link">Terms and Conditions</a> set out by this site,
+            including Cookie Use.
+          </p>
+        </div>
+        <div class="register-btns">
+          <button class="register">Register</button>
+          <button class="sign-in">Sign In</button>
+        </div>
+      </form>
     </div>
-    <div class="contact-input">
-      <input class="phone" type="tel" name="phone" placeholder="Mobile No." />
-      <input class="email" type="email" name="email" placeholder="Email Address" />
-    </div>
-    <div class="pw-input">
-      <input class="password" type="password" name="password" placeholder="Password" />
-      <input class="pw-confirm" type="password" name="pw-confirm" placeholder="Confirm Password" />
-    </div>
-    <div class="form-disclaimer">
-      <input type="checkbox" id="disclain-btn" name="disclaim-vfy" value="I Agree" />
-      <label class="verify-label" for="disclaim-vfy">I Agree</label>
-      <p class="verification">
-        By clicking <span class="vfy-btn">Register</span>, you agree to the <a class="tc-link">Terms and Conditions</a> set out by this site, including Cookie Use.
-      </p>
-    </div>
-    <div class="register-btns">
-      <button class="register">Register</button>
-      <button class="sign-in">Sign In</button>
-    </div>
-  </form>
-</body>
+  </body>
 </html>
