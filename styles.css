@@ -6,7 +6,6 @@
 }
 
 .splash-form {
-  border: solid red 2px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,48 +14,125 @@
 }
 
 .form-header {
-  font-weight: 500;
-  border: solid blue 2px;
-  padding: .4rem;
+  font-weight: 400;
+  padding: .3rem;
 }
 
 .my-form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  border: solid green 2px;
-  width: 75vw;
+  width: 50vw;
   padding: .2rem .7rem;
   height: 50vh;
 }
 
-.name-input {
+.name-input, .pw-input {
   padding: .2rem;
-  width: 100%;
-  border: solid orange 2px;
+  width: 95%;
   display: flex;
   justify-content: space-between;
   margin-bottom: .2rem;
 }
 
-.name-input input {
+.name-input input, .pw-input input {
   padding: 10px;
   width: 48%;
   border-radius: .5rem;
-  border: solid #919191 1.8px;
+  border: solid #919191 1px;
 }
 
 .contact-input {
-  border: solid pink 2px;
   padding: .2rem;
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: column;
+  margin-bottom: .2rem;
 }
 
 .contact-input input {
   padding: 10px;
   border-radius: .5rem;
-  border: solid #919191 1.8px;
+  border: solid #919191 1px;
   margin-bottom: .3rem;
+}
+
+input {
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+.form-disclaimer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .3rem;
+}
+
+.vfy-chkbox {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.verify-label {
+  font-weight: 600;
+  margin-right: 1.8rem;
+}
+
+.verification {
+  width: 75%;
+  font-size: .87rem;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+.vfy-btn {
+  border: #428BCA solid 1px;
+  background-color: #428BCA;
+  border-radius: .3rem;
+  color: #fff;
+  font-weight: 400;
+  padding: 0 .2rem;
+  margin-right: .1rem;
+}
+
+.tc-link {
+  text-decoration: none;
+  color: #428BCA;
+}
+
+
+.register-btns {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-btns button {
+  padding: .6rem;
+  width: 46%;
+  border-radius: .4rem;
+  cursor: pointer;
+}
+
+.register {
+  border: #428BCA;
+  background-color: #428BCA;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.sign-in {
+  border: #5CB85C;
+  background-color: #5CB85C;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 400;
 }
